@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistem Administrasi", "Sistem Administrasi\Sistem Administrasi.csproj", "{7427B1BB-4B3A-4700-BD67-8E7EE2CDA0C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistem Pendaftaran", "Sistem Pendaftaran\Sistem Pendaftaran.csproj", "{E515E01F-3AC8-4CB5-9FF7-677663AAFAEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7427B1BB-4B3A-4700-BD67-8E7EE2CDA0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7427B1BB-4B3A-4700-BD67-8E7EE2CDA0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7427B1BB-4B3A-4700-BD67-8E7EE2CDA0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7427B1BB-4B3A-4700-BD67-8E7EE2CDA0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E515E01F-3AC8-4CB5-9FF7-677663AAFAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E515E01F-3AC8-4CB5-9FF7-677663AAFAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E515E01F-3AC8-4CB5-9FF7-677663AAFAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E515E01F-3AC8-4CB5-9FF7-677663AAFAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97E8BF67-79BC-47C3-8436-0D9C6EE25CC9}
+	EndGlobalSection
+EndGlobal

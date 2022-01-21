@@ -1,0 +1,127 @@
+﻿<Window x:Class="Sistem_Pendaftaran.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sistem_Pendaftaran"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        Height="700" 
+        Width="1300"
+        WindowState="Maximized"
+        WindowStyle="None">
+
+    <!-- Resources -->
+    <Window.Resources>
+        <Style TargetType="Border" x:Key="menu">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <ImageBrush ImageSource="/Images/menu background.png"/>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Cursor" Value="Hand"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="Button" x:Key="btnClose">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Cursor" Value="Hand"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    
+    <!-- Start -->
+    <Grid>
+        <!-- Column Definition -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="280"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!-- Menu kiri -->
+        <Grid Background="#642DCA">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <!-- Logo -->
+            <Grid Grid.Row="0">
+                <Image Source="/Images/Group 120 v2.png"
+                       Height="23"
+                       VerticalAlignment="Center"/>
+            </Grid>
+            <Image Grid.Row="1"
+                   Source="/Images/garis.png"/>
+            
+            <!-- Menu Pendaftaran-->
+            <Border Grid.Row="3"
+                    Style="{StaticResource menu}"
+                    Margin="3, 0"
+                    x:Name="btnPendaftaran"
+                    MouseDown="btnPendaftaran_MouseDown">
+                <StackPanel Margin="60,0,0,0"
+                            VerticalAlignment="Center"
+                            Orientation="Horizontal">
+                    <Image Source="/Images/people_alt.png"
+                           Height="25"/>
+                    <Label Content="Pendaftaran"
+                           Margin="25,0,0,0"
+                           VerticalAlignment="Center"
+                           FontWeight="SemiBold"
+                           Foreground="White"
+                           FontSize="14"/>
+                </StackPanel>
+            </Border>
+            
+            <!-- Menu Jadwal Dokter -->
+            <Border Grid.Row="4"
+                    Style="{StaticResource menu}"
+                    Margin="3, 0"
+                    x:Name="btnJadwalDokter"
+                    MouseDown="btnJadwalDokter_MouseDown">
+                <StackPanel Margin="60,0,0,0"
+                            VerticalAlignment="Center"
+                            Orientation="Horizontal">
+                    <Image Source="/Images/event_note.png"
+                           Height="25"/>
+                    <Label Content="Jadwal Dokter"
+                           Margin="25,0,0,0"
+                           VerticalAlignment="Center"
+                           FontWeight="SemiBold"
+                           Foreground="White"
+                           FontSize="14"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Content -->
+        <StackPanel Grid.Column="1">
+            <Button x:Name="btnClose"
+                    HorizontalAlignment="Right" 
+                    Width="48"
+                    Height="45"
+                    Background="#FF6C3AC8"
+                    Content="X"
+                    BorderBrush="{x:Null}"
+                    BorderThickness="0"
+                    Foreground="White"
+                    FontSize="16"
+                    Click="btnClose_Click"
+                    Style="{StaticResource btnClose}"/>
+
+            <Frame x:Name="Main"
+                   NavigationUIVisibility="Hidden">
+            </Frame>
+        </StackPanel>
+    </Grid>
+</Window>

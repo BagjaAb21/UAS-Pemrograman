@@ -1,0 +1,28 @@
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\bin\Debug\Sistem Administrasi.exe.config
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\bin\Debug\Sistem Administrasi.exe
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\bin\Debug\Sistem Administrasi.pdb
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\AntreanPage.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\LoginWindow.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\MainWindow.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\ProfileWindow.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\ProsesAntreanPage.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\RiwayatDetail.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\RiwayatPage.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\App.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\Sistem Administrasi_MarkupCompile.cache
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\Sistem Administrasi_MarkupCompile.lref
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\App.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\AntreanPage.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\LoginWindow.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\MainWindow.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\ProfileWindow.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\ProsesAntreanPage.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\RiwayatDetail.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\View\RiwayatPage.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\Sistem Administrasi.g.resources
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\Sistem_Administrasi.Properties.Resources.resources
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\Sistem Administrasi.csproj.GenerateResource.cache
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\Sistem Administrasi.csproj.CoreCompileInputs.cache
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\Sistem Administrasi.exe
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\Sistem Administrasi.pdb
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Administrasi\obj\Debug\Sistem Administrasi.csproj.AssemblyReference.cache

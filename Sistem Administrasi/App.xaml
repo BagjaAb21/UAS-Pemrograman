@@ -1,0 +1,16 @@
+﻿<Application
+    x:Class="Sistem_Administrasi.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Sistem_Administrasi"
+    StartupUri="View/LoginWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="formLabel" TargetType="Label">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="FontWeight" Value="SemiBold" />
+            <Setter Property="Foreground" Value="#642DCA" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="Margin" Value="0,15,0,3" />
+        </Style>
+    </Application.Resources>
+</Application>

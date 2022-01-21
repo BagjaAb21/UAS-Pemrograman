@@ -1,0 +1,94 @@
+﻿<Page
+    x:Class="Sistem_Pendaftaran.View.PendaftaranPasienLamaPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Sistem_Pendaftaran.View"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="PendaftaranPasienLamaPage"
+    d:DesignHeight="750"
+    d:DesignWidth="1200"
+    mc:Ignorable="d">
+    <StackPanel>
+        <!--  Title  -->
+        <Image
+            Height="20"
+            Margin="0,40,0,0"
+            Source="/Images/daftarlamatitle.png" />
+
+        <Label
+            x:Name="desc"
+            Margin="0,10,0,0"
+            HorizontalAlignment="Center"
+            Content="Masukkan nama pasien untuk mencari data lama"
+            FontSize="14"
+            Foreground="#6E6893"
+            Opacity="0.7" />
+
+        <Label
+            Margin="0,100,0,0"
+            HorizontalAlignment="Center"
+            Content="Nama Pasien"
+            FontSize="16"
+            Style="{StaticResource formLabel}" />
+
+        <!--  input nama pasien  -->
+        <Border
+            Margin="0,15,0,0"
+            HorizontalAlignment="Center"
+            BorderBrush="#642DCA"
+            BorderThickness="1"
+            CornerRadius="5">
+            <StackPanel Orientation="Horizontal">
+                <Image
+                    Height="20"
+                    Margin="10,0,0,0"
+                    VerticalAlignment="Center"
+                    Source="/Images/name.png" />
+                <TextBox
+                    x:Name="txtNama"
+                    Width="370"
+                    Height="35"
+                    Margin="10,0,0,0"
+                    Padding="0,7,0,0"
+                    BorderBrush="{x:Null}"
+                    KeyDown="txtNama_KeyDown" />
+            </StackPanel>
+        </Border>
+
+        <StackPanel Grid.Row="1" Margin="100,60,100,0">
+            <!--  btn Konfirmasi  -->
+            <Button
+                x:Name="btnCari"
+                Width="410"
+                Height="40"
+                BorderBrush="{x:Null}"
+                Click="btnCari_Click"
+                Content="Cari"
+                FontSize="13"
+                FontWeight="SemiBold"
+                Foreground="White">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Images/btnUngu.png" />
+                </Button.Background>
+            </Button>
+
+            <!--  btn Kembali  -->
+            <Button
+                x:Name="btnBatal"
+                Width="410"
+                Height="40"
+                Margin="0,15,0,0"
+                BorderBrush="{x:Null}"
+                Click="btnBatal_Click"
+                Content="Batal"
+                FontSize="13"
+                FontWeight="SemiBold"
+                Foreground="#6E6893">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Images/kotak.png" />
+                </Button.Background>
+            </Button>
+        </StackPanel>
+    </StackPanel>
+</Page>

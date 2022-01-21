@@ -1,0 +1,22 @@
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\bin\Debug\Sistem Pendaftaran.exe.config
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\bin\Debug\Sistem Pendaftaran.exe
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\bin\Debug\Sistem Pendaftaran.pdb
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\Sistem Pendaftaran.csproj.AssemblyReference.cache
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\View\JadwalDokterPage.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\View\MainWindow.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\View\PendaftaranPage.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\App.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\Sistem Pendaftaran_MarkupCompile.cache
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\Sistem Pendaftaran_MarkupCompile.lref
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\App.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\View\JadwalDokterPage.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\View\MainWindow.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\View\PendaftaranPage.baml
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\Sistem Pendaftaran.g.resources
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\Sistem_Pendaftaran.Properties.Resources.resources
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\Sistem Pendaftaran.csproj.GenerateResource.cache
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\Sistem Pendaftaran.csproj.CoreCompileInputs.cache
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\Sistem Pendaftaran.exe
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\Sistem Pendaftaran.pdb
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\View\PendaftaranPasienLamaPage.g.cs
+D:\Kuliah Semester III\Pemrograman Lanjut\Final Project\Final Project\Sistem Pendaftaran\obj\Debug\View\PendaftaranPasienLamaPage.baml

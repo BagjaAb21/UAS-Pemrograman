@@ -1,0 +1,202 @@
+﻿<Window
+    x:Class="Sistem_Administrasi.View.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Sistem_Administrasi.View"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Sistem Antrean"
+    Width="1300"
+    Height="700"
+    WindowStartupLocation="CenterScreen"
+    WindowState="Maximized"
+    WindowStyle="None"
+    mc:Ignorable="d">
+
+    <!--  Window Resources  -->
+    <Window.Resources>
+        <!--  Menu  -->
+        <Style x:Key="Menu" TargetType="Label">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Opacity" Value="1" />
+            <Setter Property="FontWeight" Value="DemiBold" />
+        </Style>
+
+        <!--  Menu Trigger  -->
+        <Style x:Key="MenuDockPanel" TargetType="DockPanel">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background">
+                        <Setter.Value>
+                            <ImageBrush ImageSource="/Images/Rectangle 100.png" />
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="Cursor" Value="Hand" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!--  Profile Trigger  -->
+        <Style x:Key="Profile" TargetType="StackPanel">
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#763CE1" />
+                    <Setter Property="Cursor" Value="Hand" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <!--  Profile Sub Menu Trigger  -->
+        <Style x:Key="subMenu" TargetType="Label">
+            <Setter Property="Foreground" Value="White" />
+            <Setter Property="Width" Value="250" />
+            <Setter Property="HorizontalContentAlignment" Value="Right" />
+            <Setter Property="Padding" Value="0,0,30,0" />
+            <Setter Property="Height" Value="40" />
+            <Setter Property="VerticalContentAlignment" Value="Center" />
+            <Setter Property="FontSize" Value="13" />
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#763CE1" />
+                    <Setter Property="Cursor" Value="Hand" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+    <!--  End of Window Resources  -->
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <!--  NAVBAR  -->
+        <Grid Grid.Row="0" Background="#642DCA">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="250" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="250" />
+            </Grid.ColumnDefinitions>
+
+            <!--  LOGO  -->
+            <Image
+                Width="144"
+                Height="23"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Source="/Images/Group 120 v2.png">
+                <Image.OpacityMask>
+                    <ImageBrush ImageSource="/Images/Group 120 v2.png" />
+                </Image.OpacityMask>
+            </Image>
+
+            <!--  MENU  -->
+            <Grid Grid.Column="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="95" />
+                    <ColumnDefinition Width="95" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!--  Menu Antrean  -->
+                <DockPanel
+                    x:Name="btnAntrean"
+                    Grid.Column="1"
+                    Height="70"
+                    MouseDown="btnAntrean_MouseDown"
+                    Style="{StaticResource MenuDockPanel}">
+
+                    <Label Content="Antrean" Style="{StaticResource Menu}" />
+                </DockPanel>
+                <!--  Menu Riwayat  -->
+                <DockPanel
+                    x:Name="btnRiwayat"
+                    Grid.Column="2"
+                    Height="70"
+                    MouseDown="btnRiwayat_MouseDown"
+                    Style="{StaticResource MenuDockPanel}">
+
+                    <Label Content="Riwayat" Style="{StaticResource Menu}" />
+                </DockPanel>
+            </Grid>
+
+            <!--  PROFILE  -->
+            <Border
+                x:Name="btnProfile"
+                Grid.Column="2"
+                HorizontalAlignment="Right"
+                MouseLeftButtonDown="btnProfile_MouseLeftButtonDown">
+
+                <StackPanel Orientation="Horizontal" Style="{StaticResource Profile}">
+
+                    <Image
+                        x:Name="ImageProfile"
+                        Width="30"
+                        Height="30"
+                        Margin="20,0,0,0"
+                        Source="/Images/account.png"
+                        Stretch="Fill">
+                        <Image.OpacityMask>
+                            <ImageBrush ImageSource="/Images/black_circle.png" />
+                        </Image.OpacityMask>
+                    </Image>
+
+                    <Label
+                        x:Name="lblProfile"
+                        Margin="15,0,0,0"
+                        Padding="0"
+                        VerticalContentAlignment="Center"
+                        FontSize="15"
+                        FontWeight="DemiBold"
+                        Foreground="White" />
+
+                    <Image
+                        Width="15"
+                        Margin="10,2,20,0"
+                        Source="/Images/keyboard_arrow_down.png" />
+                </StackPanel>
+
+            </Border>
+        </Grid>
+
+        <!--  PAGE  -->
+        <Grid Grid.Row="1">
+            <Frame x:Name="Main" NavigationUIVisibility="Hidden" />
+        </Grid>
+
+        <!--  CANVAS PROFILE  -->
+        <Canvas
+            x:Name="canvasProfile"
+            Grid.Column="2"
+            Canvas.Left="720"
+            Width="250"
+            Height="80"
+            Margin="0,80,0,0"
+            HorizontalAlignment="Right"
+            VerticalAlignment="Top"
+            Background="#642DCA"
+            Visibility="Hidden">
+
+            <!--  menu pengaturan akun  -->
+            <Label
+                x:Name="lblAkun"
+                Content="Akun Profile"
+                MouseDown="lblAkun_MouseDown"
+                Style="{StaticResource subMenu}" />
+
+            <!--  menu Log out  -->
+            <Label
+                x:Name="lblLogout"
+                Canvas.Top="40"
+                Content="Log Out"
+                MouseDown="lblLogout_MouseDown"
+                Style="{StaticResource subMenu}" />
+        </Canvas>
+
+    </Grid>
+</Window>
